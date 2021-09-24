@@ -38,6 +38,30 @@ const quizData = [
         c: '1994',
         d: 'none of the above',
         correct:'d'        
+    },
+    {
+        question: 'What is the most practiced sport in the world?',
+        a: 'Futbol',
+        b: 'Baseball',
+        c: 'BasquetBall',
+        d: 'other',
+        correct:'a'        
+    },
+    {
+        question: 'Which is the most popular tech brand in the world?',
+        a: 'Apple',
+        b: 'Motorola',
+        c: 'Xiaomi',
+        d: 'Samsung',
+        correct:'a'        
+    },
+    {
+        question: 'What is the meaning of HDMI?',
+        a: 'High Definition Mode Interface',
+        b: 'High Date Multimedia Internet',
+        c: 'High-Definition Multimedia Interface',
+        d: 'None of the above',
+        correct:'a'        
     }
 ]
 
