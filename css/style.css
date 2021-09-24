@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+
+img{
+    max-width: 100%;
+}
+
+
 body{
-    background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     font-family: "Poppins", sans-serif;
+    
     margin: 0;
     min-height: 100vh;/* Toma el 100 porciento de la pagina   */
 
@@ -18,7 +24,11 @@ body{
 }
 
 .quiz-container{
-    background-color: white;
+    background-image: url("/Obelisco.jpg"); 
+    background-size:cover;
+    background-position: center center;
+
+    /* background-color: white; */
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, .1);
     overflow: hidden;
@@ -30,23 +40,40 @@ body{
     padding: 4rem;
 }
 h2{
-    padding: 1rem;
+    background-color: rgb(183, 210, 250);
+    border: 5px solid rgb(138, 219, 219);
+    border-radius: 3rem;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
     margin: 0;
+    color: #1f2631;
+
+    opacity: .9;
 }
 
 ul{
+    background-color: rgb(183, 210, 250);
     list-style-type: none;
     padding: 0;
+    border: .4rem solid rgb(69, 211, 199);
+    border-radius: 1rem;
+
 }
 
 ul li{
-    font-style: 1.2rem;
+    text-align: center;
     margin: 1rem 0;
     cursor: pointer;
+    color: white ;
+
 }
 ul li label{
+    font-size: 1.3rem;
     cursor: pointer;
+    color: #1f2631;
+
 }
 
 
