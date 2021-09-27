@@ -53,7 +53,7 @@ const quizData = [
         b: 'High Date Multimedia Internet',
         c: 'High-Definition Multimedia Interface',
         d: 'None of the above',
-        correct:'a'        
+        correct:'c'        
     }
 ]
 
